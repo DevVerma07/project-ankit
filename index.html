@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project using HTML And CSS</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="bg-image">
+      <!-- Navbar -->
+      <div class="navbar">
+        <img src="/assets/Img/3.png" alt="" height="35px" />
+        <div class="nav-a">
+          <a href="#">Home</a>
+          <form action="">
+            <select id="cars" name="cars" class="dropdown">
+              <option value="style" selected>Style</option>
+              <option value="javascript">js</option>
+            </select>
+          </form>
+
+          <a href="#">People</a>
+          <a href="#">Design</a>
+          <a href="#">Travel</a>
+          <a href="#">Commercial</a>
+          <a href="https:linkedin.com" target="_blank">
+            <svg
+              width="25px"
+              height="25px"
+              viewBox="0 0 32 32"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+              fill="#ffffff"
+              stroke="#ffffff"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>search</title>
+                <desc>Created with Sketch Beta.</desc>
+                <defs></defs>
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  sketch:type="MSPage"
+                >
+                  <g
+                    id="Icon-Set"
+                    sketch:type="MSLayerGroup"
+                    transform="translate(-256.000000, -1139.000000)"
+                    fill="#ffffff"
+                  >
+                    <path
+                      d="M269.46,1163.45 C263.17,1163.45 258.071,1158.44 258.071,1152.25 C258.071,1146.06 263.17,1141.04 269.46,1141.04 C275.75,1141.04 280.85,1146.06 280.85,1152.25 C280.85,1158.44 275.75,1163.45 269.46,1163.45 L269.46,1163.45 Z M287.688,1169.25 L279.429,1161.12 C281.591,1158.77 282.92,1155.67 282.92,1152.25 C282.92,1144.93 276.894,1139 269.46,1139 C262.026,1139 256,1144.93 256,1152.25 C256,1159.56 262.026,1165.49 269.46,1165.49 C272.672,1165.49 275.618,1164.38 277.932,1162.53 L286.224,1170.69 C286.629,1171.09 287.284,1171.09 287.688,1170.69 C288.093,1170.3 288.093,1169.65 287.688,1169.25 L287.688,1169.25 Z"
+                      id="search"
+                      sketch:type="MSShapeGroup"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a href="https:twitter.com" target="_blank">
+            <svg
+              width="25px"
+              height="25px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#ffffff"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19.7828 3.91825C20.1313 3.83565 20.3743 3.75444 20.5734 3.66915C20.8524 3.54961 21.0837 3.40641 21.4492 3.16524C21.7563 2.96255 22.1499 2.9449 22.4739 3.11928C22.7979 3.29366 23 3.6319 23 3.99986C23 5.08079 22.8653 5.96673 22.5535 6.7464C22.2911 7.40221 21.9225 7.93487 21.4816 8.41968C21.2954 11.7828 20.3219 14.4239 18.8336 16.4248C17.291 18.4987 15.2386 19.8268 13.0751 20.5706C10.9179 21.3121 8.63863 21.4778 6.5967 21.2267C4.56816 20.9773 2.69304 20.3057 1.38605 19.2892C1.02813 19.0108 0.902313 18.5264 1.07951 18.109C1.25671 17.6916 1.69256 17.4457 2.14144 17.5099C3.42741 17.6936 4.6653 17.4012 5.6832 16.9832C5.48282 16.8742 5.29389 16.7562 5.11828 16.6346C4.19075 15.9925 3.4424 15.1208 3.10557 14.4471C2.96618 14.1684 2.96474 13.8405 3.10168 13.5606C3.17232 13.4161 3.27562 13.293 3.40104 13.1991C2.04677 12.0814 1.49999 10.5355 1.49999 9.49986C1.49999 9.19192 1.64187 8.90115 1.88459 8.71165C1.98665 8.63197 2.10175 8.57392 2.22308 8.53896C2.12174 8.24222 2.0431 7.94241 1.98316 7.65216C1.71739 6.3653 1.74098 4.91284 2.02985 3.75733C2.1287 3.36191 2.45764 3.06606 2.86129 3.00952C3.26493 2.95299 3.6625 3.14709 3.86618 3.50014C4.94369 5.36782 6.93116 6.50943 8.78086 7.18568C9.6505 7.50362 10.4559 7.70622 11.0596 7.83078C11.1899 6.61019 11.5307 5.6036 12.0538 4.80411C12.7439 3.74932 13.7064 3.12525 14.74 2.84698C16.5227 2.36708 18.5008 2.91382 19.7828 3.91825ZM10.7484 9.80845C10.0633 9.67087 9.12171 9.43976 8.09412 9.06408C6.7369 8.56789 5.16088 7.79418 3.84072 6.59571C3.86435 6.81625 3.89789 7.03492 3.94183 7.24766C4.16308 8.31899 4.5742 8.91899 4.94721 9.10549C5.40342 9.3336 5.61484 9.8685 5.43787 10.3469C5.19827 10.9946 4.56809 11.0477 3.99551 10.9046C4.45603 11.595 5.28377 12.2834 6.66439 12.5135C7.14057 12.5929 7.49208 13.0011 7.49986 13.4838C7.50765 13.9665 7.16949 14.3858 6.69611 14.4805L5.82565 14.6546C5.95881 14.7703 6.103 14.8838 6.2567 14.9902C6.95362 15.4727 7.65336 15.6808 8.25746 15.5298C8.70991 15.4167 9.18047 15.6313 9.39163 16.0472C9.60278 16.463 9.49846 16.9696 9.14018 17.2681C8.49626 17.8041 7.74425 18.2342 6.99057 18.5911C6.63675 18.7587 6.24134 18.9241 5.8119 19.0697C6.14218 19.1402 6.48586 19.198 6.84078 19.2417C8.61136 19.4594 10.5821 19.3126 12.4249 18.6792C14.2614 18.0479 15.9589 16.9385 17.2289 15.2312C18.497 13.5262 19.382 11.1667 19.5007 7.96291C19.51 7.71067 19.6144 7.47129 19.7929 7.29281C20.2425 6.84316 20.6141 6.32777 20.7969 5.7143C20.477 5.81403 20.1168 5.90035 19.6878 5.98237C19.3623 6.04459 19.0272 5.94156 18.7929 5.70727C18.0284 4.94274 16.5164 4.43998 15.2599 4.77822C14.6686 4.93741 14.1311 5.28203 13.7274 5.89906C13.3153 6.52904 13 7.51045 13 8.9999C13 9.28288 12.8801 9.5526 12.6701 9.74221C12.1721 10.1917 11.334 9.92603 10.7484 9.80845Z"
+                  fill="#ffffff"
+                />
+              </g>
+            </svg>
+          </a>
+
+          <a href="https:facebook.com" target="_blank">
+            <svg
+              width="25px"
+              height="25px"
+              fill="#ffffff"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid"
+              width="64px"
+              height="64px"
+              viewBox="0 0 14.906 32"
+              stroke="#ffffff"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M14.874,11.167 L14.262,14.207 C14.062,15.208 13.100,15.992 12.072,15.992 L10.000,15.992 L10.000,30.000 C10.000,31.104 9.159,32.000 8.049,32.000 L5.030,32.000 C3.920,32.000 3.017,31.102 3.017,29.999 L3.017,15.992 L2.011,15.992 C0.901,15.992 -0.002,15.095 -0.002,13.991 L-0.002,10.990 C-0.002,9.887 0.901,8.989 2.011,8.989 L3.017,8.989 L3.017,6.003 C3.017,2.716 5.693,0.041 8.994,0.013 C9.015,0.012 9.033,0.001 9.055,0.001 L13.081,0.001 C13.636,0.001 14.000,0.448 14.000,1.000 L14.000,6.000 C14.000,6.553 13.636,7.004 13.081,7.004 L10.061,7.004 L10.060,8.989 L13.079,8.989 C13.645,8.989 14.167,9.228 14.509,9.644 C14.852,10.059 14.985,10.615 14.874,11.167 ZM9.092,10.990 C9.078,10.991 9.067,10.998 9.053,10.998 L9.053,10.998 C8.497,10.997 8.046,10.549 8.047,9.997 L8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 L8.049,6.003 C8.049,5.450 8.499,5.003 9.055,5.003 L12.074,5.003 L12.074,2.002 L9.094,2.002 C9.077,2.002 9.063,2.011 9.045,2.011 C6.831,2.011 5.030,3.802 5.030,6.003 L5.030,10.005 C5.030,10.558 4.579,11.006 4.023,11.006 C3.996,11.006 3.973,10.992 3.946,10.990 L2.011,10.990 L2.011,13.991 L4.023,13.991 C4.579,13.991 5.030,14.439 5.030,14.992 C5.030,15.044 5.008,15.088 5.000,15.138 L5.000,30.000 L8.049,29.999 L8.049,15.002 C8.049,14.998 8.047,14.995 8.047,14.992 C8.047,14.439 8.497,13.991 9.053,13.991 L12.072,13.991 C12.145,13.991 12.275,13.886 12.288,13.816 L12.857,10.990 L9.092,10.990 Z"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="home">
+        <h2>Home</h2>
+        <h5>Masonry + Boxel Layout</h5>
+      </div>
+    </header>
+    <!-- Aside Section -->
+    <aside class="header-part">
+      <a href="#" class="nav item-1">All</a>
+      <a href="#" class="nav item-2">Commercial</a>
+      <a href="#" class="nav item-3">Design</a>
+      <a href="#" class="nav item-4">Nature</a>
+      <a href="#" class="nav item-5">People</a>
+      <a href="#" class="nav item-6">Photography</a>
+      <a href="#" class="nav item-7">Tech</a>
+      <a href="#" class="nav item-8">Travel</a>
+      <a href="#" class="nav item-9">Uncategorized</a>
+    </aside>
+    <!-- Article Section -->
+    <article class="article-main">
+      <div class="content-container-1">
+        <div class="box-1">
+          <img src="assets/Img/11.jpg" alt="" class="box-img" />
+          <div class="inside-box">
+            <h6 class="grey">by Shufflehound November 23, 2016</h6>
+            <p class="black">Trip that you'll never ever forget</p>
+            <h6 class="grey">
+              Quisque dictum eros nisl, a maximus massa fseee accumsan non,
+              Aliquam erat volutpat, Quisque at finibus dui. Praesent...
+            </h6>
+            <hr />
+            <h6 class="grey">PEOPLE, TRAVEL</h6>
+          </div>
+        </div>
+        <div class="box-1 box-2">
+          <img src="/assets/Img/12.jpg" alt="" class="box-img" />
+          <div class="inside-box">
+            <h6 class="grey">by shuffiehound November 23, 2016</h6>
+            <p class="black">
+              Movielike photo <br />
+              shoot - B&W.
+            </p>
+            <h6 class="grey">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
+              eros scelerisque. scelerisque nisl sit amet. molestie.
+            </h6>
+            <hr />
+            <h6 class="grey">PEOPLE, TRAVEL</h6>
+          </div>
+        </div>
+        <div class="box-1 box-2 box-3">
+          <img src="/assets/Img/13.jpg" alt="" class="box-img" />
+          <div class="inside-box">
+            <h6 class="grey">by Shufflehound November 23, 2016</h6>
+            <p class="black">
+              Top 5 tips to have a<br />
+              great vacation
+            </p>
+            <h6 class="grey">
+              Quisque dictum eros nisl, a maximus massa fsse accumsan non,
+              Aliquam erat volutpat, Quisque at finibus dui. Praesent...
+            </h6>
+            <hr />
+            <h6 class="grey">PEOPLE, TRAVEL</h6>
+          </div>
+        </div>
+        <div class="box-1 box-2 box-3 box-4">
+          <img src="/assets/Img/14.jpg" alt="" class="box-img" />
+          <div class="inside-box box-4-change">
+            <h6 class="grey">by shuffiehound November 23, 2016</h6>
+            <p class="black">
+              The proper way to dress up for the business meeting
+            </p>
+            <h6 class="grey">
+              Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam
+              erat volutpat. Quisque at finibus dui. Praesent...
+            </h6>
+            <hr />
+            <h6 class="grey">COMMERICAL DESIGN</h6>
+          </div>
+        </div>
+        <div class="box-1 box-2 box-3 box-4">
+          <img src="/assets/Img/6.jpg" alt="" class="box-img" />
+          <div class="inside-box box-4-change">
+            <h6 class="grey">by shuffiehound November 23, 2016</h6>
+            <p class="black">Black and white portrait</p>
+            <h6 class="grey">
+              Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam
+              erat volutpat. Quisque at finibus dui. Praesent...
+            </h6>
+            <hr />
+            <h6 class="grey">DESIGN PEOPLE</h6>
+          </div>
+        </div>
+        <div class="box-1 box-2 box-3">
+          <img src="/assets/Img/15.jpg" alt="" class="box-img" />
+          <div class="inside-box">
+            <h6 class="grey">by shuffiehound November 23, 2016</h6>
+            <p class="black">Check out my new action camera!</p>
+            <h6 class="grey">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
+              eros scelerisque. scelerisque nisl sit amet. molestie.
+            </h6>
+            <hr />
+            <h6 class="grey">TECH</h6>
+          </div>
+        </div>
+      </div>
+      <div class="content-container-2">
+        <div class="box-1 box-2 box-3 box-4">
+          <img src="/assets/Img/17.jpg" alt="" class="box-img" />
+          <div class="inside-box box-4-change">
+            <h6 class="grey">by shuffiehound November 23, 2016</h6>
+            <p class="black">Must-have gear</p>
+            <h6 class="grey">
+              Utet lacus ex. Aliquam dignissim mauris sit amet purus convallis,
+              vitae vehicula lectus tincidunt. Nulla placerat.
+            </h6>
+            <hr />
+            <h6 class="grey">PHOTOGRAPHY TECH</h6>
+          </div>
+        </div>
+        <div class="box-1 box-2 box-3 box-4">
+          <img src="/assets/Img/18.jpg" alt="" class="box-img" />
+          <div class="inside-box box-4-change">
+            <h6 class="grey">by shuffiehound November 23, 2016</h6>
+            <p class="black">Craftsmen at work</p>
+            <h6 class="grey">
+              Morbi eu ante mollis, elementum tortor in, hendrerit libero.
+              Maecenas feugiat rhoncus magna, at consequat libero dictum...
+            </h6>
+            <hr />
+            <h6 class="grey">PEOPLE</h6>
+          </div>
+        </div>
+        <div class="box-1 box-2 box-3 box-4">
+          <img src="/assets/Img/19.jpg" alt="" class="box-img" />
+          <div class="inside-box box-4-change">
+            <h6 class="grey">by shuffiehound November 23, 2016</h6>
+            <p class="black">Video: Testing the “Black beast” on the road</p>
+            <h6 class="grey">
+              Morbi eu ante mollis, elementum tortor in, hendrerit libero.
+              Maecenas feugiat rhoncus magna, at consequat libero dictum...
+            </h6>
+            <hr />
+            <h6 class="grey">PEOPLE TECH</h6>
+          </div>
+        </div>
+        <div class="box-1 box-2 box-3 box-4">
+          <img src="/assets/Img/20.jpg" alt="" class="box-img" />
+          <div class="inside-box box-4-change">
+            <h6 class="grey">by shuffiehound November 23, 2016</h6>
+            <p class="black">Main headquarters if finally ready</p>
+            <h6 class="grey">
+              Morbi eu ante mollis, elementum tortor in, hendrerit libero.
+              Maecenas feugiat rhoncus magna, at consequat libero dictum...
+            </h6>
+            <hr />
+            <h6 class="grey">PEOPLE COMMERICAL</h6>
+          </div>
+        </div>
+        <div class="box-1 box-2 box-3 box-4">
+          <img src="/assets/Img/21.jpg" alt="" class="box-img" />
+          <div class="inside-box box-4-change">
+            <h6 class="grey">by shuffiehound November 23, 2016</h6>
+            <p class="black">The white slopes</p>
+            <h6 class="grey">
+              Ut et lacus ex. Aliquam dignissim mauris sit amet purus convallis,
+              vitae vehicula lectus tincidunt. Nulla placerat.
+            </h6>
+            <hr />
+            <h6 class="grey">NATURE, PEOPLE, TRAVEL</h6>
+          </div>
+        </div>
+        <div class="box-1 box-2 box-3 box-4">
+          <img src="/assets/Img/22.jpg" alt="" class="box-img" />
+          <div class="inside-box box-4-change">
+            <h6 class="grey">by shuffiehound November 23, 2016</h6>
+            <p class="black">First steps in the right direction</p>
+            <h6 class="grey">
+              Morbi eu ante mollis, elementum tortor in, hendrerit libero.
+              Maecenas feugiat rhoncus magna, at consequat libero dictum...
+            </h6>
+            <hr />
+            <h6 class="grey">COMMERICAL PEOPLE</h6>
+          </div>
+        </div>
+      </div>
+      <div class="content-container-3">
+        <div class="footer-2">
+          <div class="footer-title">
+            <h4 class="post">Latest Posts</h4>
+          </div>
+          <div class="footer-main">
+            <div class="main-1">
+              <img src="/assets/Img/6.jpg" alt="" height="70px" width="70px" />
+            </div>
+            <div>
+              <p class="main-2">
+                PEOPLE, TRAVE <br />
+                <strong> Trip that you'll never ever forget </strong>
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="footer-main">
+            <div class="main-1">
+              <img src="/assets/Img/8.jpg" alt="" height="70px" width="70px" />
+            </div>
+            <div>
+              <p class="main-2 row-1">
+                PHOTOGRAPHY, TECH<br />
+                <strong> Must - Have Gear </strong>
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="footer-main">
+            <div class="main-1">
+              <img src="/assets/Img/7.jpg" alt="" height="70px" width="70px" />
+            </div>
+            <div>
+              <p class="main-2 row-2">
+                DESIGN, PHOTOGRAPHY<br />
+                <strong>Movoelike photo shoot - B&W</strong>
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="footer-main">
+            <div class="main-1">
+              <img src="/assets/Img/8.jpg" alt="" height="70px" width="70px" />
+            </div>
+            <div>
+              <p class="main-2 row-1">
+                PHOTOGRAPHY, TECH<br />
+                <strong> Must - Have Gear </strong>
+              </p>
+            </div>
+          </div>
+          <br /><br />
+          <div class="box-1 box-2 box-3 box-4" id="boxes">
+            <img src="/aasets/Img/17.jpg" alt="" class="box-img new-img" />
+          </div>
+        </div>
+        <!-- Search Bar -->
+        <div class="search-bar">
+          <button class="flexbox">
+            <input
+              type="text"
+              placeholder="Search.."
+              fdprocessedid="h2wmoj"
+              autocomplete="off"
+              class="search"
+            />
+            <svg
+              class="svg-search"
+              width="46px"
+              height="46px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <g clip-path="url(#clip0_15_152)">
+                  <rect width="24" height="24" fill="white"></rect>
+                  <circle
+                    cx="10.5"
+                    cy="10.5"
+                    r="6.5"
+                    stroke="#000000"
+                    stroke-linejoin="round"
+                  ></circle>
+                  <path
+                    d="M19.6464 20.3536C19.8417 20.5488 20.1583 20.5488 20.3536 20.3536C20.5488 20.1583 20.5488 19.8417 20.3536 19.6464L19.6464 20.3536ZM20.3536 19.6464L15.3536 14.6464L14.6464 15.3536L19.6464 20.3536L20.3536 19.6464Z"
+                    fill="#000000"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_15_152">
+                    <rect width="24" height="24" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </g>
+            </svg>
+          </button>
+        </div>
+        <div class="box-1 box-2 box-3 box-4" id="boxes">
+          <div class="inside-box" id="box-4-change">
+            <div class="footer-title">
+              <h4 id="title" class="resize">Popular Tags</h4>
+            </div>
+            <div class="span span-1" id="span">
+              <span>BIKE</span>
+              <span>BUILDING</span>
+              <span>CAMERA</span>
+              <span>CRAFT</span>
+              <br />
+              <span>GEAR</span>
+              <span>GIRL</span>
+              <span>JUMPING</span>
+              <span>LAKE</span>
+              <br />
+              <span>LIFESTYLE</span>
+              <span>MASTER</span>
+              <span>MOKE-UP</span>
+              <br />
+              <span>MOTIVATION</span>
+              <span>MOUNTAINS</span>
+              <span>MOVIE</span>
+              <br />
+              <span>NOTEBOOK</span>
+              <span>OFFICE</span>
+              <span>STROMTROPPER</span>
+              <br />
+              <span>SWIMMING</span>
+              <span>TROPPER</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- footer Section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-1">
+          <div class="footer-img">
+            <img src="/assets/Img/3.png" alt="" width="90px" height="auto" />
+          </div>
+          <div>
+            <p class="footer-p">
+              Pellentesque placerat tincidunt urna, vitae feugiat magna
+              vestibulum non. Mauris ut sagittis est Pellentesque a felis est.
+              Duis in risus metus. Cras felis ante. sodales eget pretium eu,
+              hendrerit at metus. Maecenas aliquam dictum sapien id ornare.
+            </p>
+          </div>
+          <div class="footer-1a">
+            <div class="svg-1">
+              <a href="https://twitter.com" target="_blank"
+                ><svg
+                  width="22px"
+                  height="auto"
+                  viewBox="0 0 48 48"
+                  id="Layer_2"
+                  data-name="Layer 2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: none;
+                          stroke: #ffffff;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                        }
+                      </style>
+                    </defs>
+                    <path
+                      class="cls-1"
+                      d="M38.74,16.55v1c0,10.07-7.64,21.61-21.62,21.61A21.14,21.14,0,0,1,5.5,35.71a12.22,12.22,0,0,0,1.81.11,15.25,15.25,0,0,0,9.44-3.24,7.56,7.56,0,0,1-7.1-5.29,6.9,6.9,0,0,0,1.44.15,7.53,7.53,0,0,0,2-.27A7.57,7.57,0,0,1,7,19.72v-.1a7.42,7.42,0,0,0,3.44.94A7.54,7.54,0,0,1,8.05,10.5a21.58,21.58,0,0,0,15.68,7.94,6.38,6.38,0,0,1-.21-1.74,7.55,7.55,0,0,1,13.17-5.31,15.59,15.59,0,0,0,4.83-1.85,7.65,7.65,0,0,1-3.39,4.27,15.87,15.87,0,0,0,4.37-1.26,15.56,15.56,0,0,1-3.76,4Z"
+                    ></path>
+                  </g></svg
+              ></a>
+            </div>
+            <div class="svg-2">
+              <a href="https://facebook.com" target="_blank">
+                <svg
+                  width="24px"
+                  height="24px"
+                  viewBox="0 -0.5 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M11.75 19C11.75 19.4142 12.0858 19.75 12.5 19.75C12.9142 19.75 13.25 19.4142 13.25 19H11.75ZM13.25 11C13.25 10.5858 12.9142 10.25 12.5 10.25C12.0858 10.25 11.75 10.5858 11.75 11H13.25ZM15.5 5.75C15.9142 5.75 16.25 5.41421 16.25 5C16.25 4.58579 15.9142 4.25 15.5 4.25V5.75ZM12.5 8H11.75H12.5ZM11.75 11C11.75 11.4142 12.0858 11.75 12.5 11.75C12.9142 11.75 13.25 11.4142 13.25 11H11.75ZM12.5 10.25C12.0858 10.25 11.75 10.5858 11.75 11C11.75 11.4142 12.0858 11.75 12.5 11.75V10.25ZM14.5 11.75C14.9142 11.75 15.25 11.4142 15.25 11C15.25 10.5858 14.9142 10.25 14.5 10.25V11.75ZM12.5 11.75C12.9142 11.75 13.25 11.4142 13.25 11C13.25 10.5858 12.9142 10.25 12.5 10.25V11.75ZM10.5 10.25C10.0858 10.25 9.75 10.5858 9.75 11C9.75 11.4142 10.0858 11.75 10.5 11.75V10.25ZM13.25 19V11H11.75V19H13.25ZM15.5 4.25C13.4289 4.25 11.75 5.92893 11.75 8H13.25C13.25 6.75736 14.2574 5.75 15.5 5.75V4.25ZM11.75 8V11H13.25V8H11.75ZM12.5 11.75H14.5V10.25H12.5V11.75ZM12.5 10.25H10.5V11.75H12.5V10.25Z"
+                      fill="#ffffff"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Footer 2 -->
+        <div class="footer-2">
+          <div class="footer-title">
+            <h4 id="title">Recent Posts</h4>
+          </div>
+          <div class="footer-main">
+            <div class="main-1">
+              <img src="/assets/Img/6.jpg" alt="" height="70px" width="70px" />
+            </div>
+            <div>
+              <p class="main-2">
+                PEOPLE, TRAVE <br />
+                <strong> Trip that you'll never ever forget </strong>
+              </p>
+            </div>
+          </div>
+          <hr id="color-grey" />
+          <div class="footer-main">
+            <div class="main-1">
+              <img src="assets/Img/8.jpg" alt="" height="70px" width="70px" />
+            </div>
+            <div>
+              <p class="main-2 row-1">
+                PHOTOGRAPHY, TECH<br />
+                <strong> Must - Have Gear </strong>
+              </p>
+            </div>
+          </div>
+          <hr id="color-grey" />
+          <div class="footer-main">
+            <div class="main-1">
+              <img src="assets/Img/7.jpg" alt="" height="70px" width="70px" />
+            </div>
+            <div>
+              <p class="main-2 row-2">
+                DESIGN, PHOTOGRAPHY<br />
+                <strong>Movielike photo shoot - B&W</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-3">
+          <div class="footer-title">
+            <h4 id="title">Tags</h4>
+          </div>
+          <div class="span">
+            <span>BIKE</span>
+            <span>BUILDING</span>
+            <span>CAMERA</span>
+            <span>CRAFT</span>
+            <br />
+            <span>GEAR</span>
+            <span>GIRL</span>
+            <span>JUMPING</span>
+            <span>LAKE</span>
+            <br />
+            <span>LIFESTYLE</span>
+            <span>MASTER</span>
+            <span>MOKE-UP</span>
+            <br />
+            <span>MOTIVATION</span>
+            <span>MOUNTAINS</span>
+            <span>MOVIE</span>
+            <br />
+            <span>NOTEBOOK</span>
+            <span>OFFICE</span>
+            <span>STROMTROPPER</span>
+            <br />
+            <span>SWIMMING</span>
+            <span>TROPPER</span>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        Wordpress Theme Built By <strong>Shufflehound</strong>
+      </p>
+    </footer>
+  </body>
+</html>

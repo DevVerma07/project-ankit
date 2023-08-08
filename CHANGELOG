@@ -1,0 +1,35 @@
+## 1.0.1
+
+* Adding a new logo to the index.html file.
+* Changed the color scheme for the website.
+* Making the website Responsiveness by using Bootstrap Framework.
+
+
+## 1.0.0
+
+* Initial release.
+
+
+### Added
+
+- Making the website Responsive.
+- By making websites Responsive the website can be available for mobile devices and other 
+  devices.
+- Responsive means it automatically adjusts itself according to the devices.
+
+
+### Fixed
+
+- Clear Bugs and Clear unnecessary Comments.
+- Put all the images inside the assets/images folder so that all useful items are put 
+  together in one file.
+- Use of comments where it is required.
+- Proper Formatting of text, tags, elements, and styling.
+
+
+### Changed
+
+- Upgrade the way of styling by using the Bootstrap framework.
+- Creating the website responsive so the website can be available for mobile devices and 
+  other devices.
+- Bootstrap is easy to use and it has responsive features.
