@@ -16,6 +16,7 @@ CSS describes how HTML elements will be displayed on Screen, or any other Multim
 ## Screenshot Of My Project
 
 This is a Simple and Static website and I have created this website by using HTML and CSS.
+
 <img src="https://i.postimg.cc/cJFYMVQQ/Project-using-HTML-and-CSS.png">
 
 #### Author
